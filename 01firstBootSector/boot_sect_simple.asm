@@ -18,5 +18,5 @@ dw 0xaa55
 ; nasm -f bin boot_sect_simple.asm -o boot_sect_simple.bin
 
 ; To run the compiled binary file (boot_sect_simple.bin), you can use the following command:
-; qemu boot_sect_simple.bin
+; qemu-system-x86_64 boot_sect_simple.bin
 
